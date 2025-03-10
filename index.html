@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Explore the thrilling adventures of the BigTurtle SMP, created by DearestWall and friends. Immerse yourself in engaging episodes filled with action, strategy, and surprises.">
+  <title>Big Turtle SMP Series</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>The Big Turtle SMP</h1>
+  <h2>Made by SPEED</h2>
+
+  <!-- Episode Grid -->
+  <div class="episode-grid">
+    <!-- Template for Episode Cards with Self-Placeholders -->
+    <div class="episode-card" onclick="openModal('episode1')">
+      <img src="https://i.ibb.co/h8zFKtW/image.jpg" alt="Episode 1" border="0" loading="lazy"></a>
+      <h2 class="episode-title">Episode 1: The New Beginning</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode2')">
+      <img src="https://i.ibb.co/9qc29QJ/image-1.jpg" alt="Episode 2" border="0" loading="lazy"></a>
+      <h2 class="episode-title">Episode 2: The Truth</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode3')">
+      <img src="https://i.ibb.co/6PmJgmF/guess-the-twist-PNG.jpg" alt="Episode 3" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 3: The Real Twist</h2>
+    </div>
+
+    <!-- Additional placeholders for future episodes -->
+    <div class="episode-card" onclick="openModal('episode4')">
+      <img src="https://i.ibb.co/bzdmhGz/image.png" alt="Episode 4" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 4: The New Journey</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode5')">
+      <img src="https://i.ibb.co/cx8fdYj/image.png" alt="Episode 5" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 5: The Truth Unveiled</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode6')">
+      <img src="https://i.ibb.co/r7d27pn/image.png" alt="image" alt="Episode 6" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 6: The Fight Begins</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode7')">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmJFNejxIHNcgsrVMcl21zONY_v1XVPAA_mg&s" alt="Episode 7" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 7: The Final Step</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode8')">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz-j4z-vjUwvG6VZeTZtK9xJvGRveYOwLv7A&s" alt="Episode 8" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 8: The Flashback</h2>
+    </div>
+
+    <div class="episode-card" onclick="openModal('episode9')">
+      <img src="https://i.ibb.co/DMCRzL7/image.png" alt="Episode 9" border="0" loading="lazy">
+      <h2 class="episode-title">Episode 9: The Gathering Storm</h2>
+    </div>
+
+  </div>
+
+  <!-- Modals for Episodes with Self-Placeholders -->
+  <div class="modal" id="episode1">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 1: The New Beginning</h2>
+
+        <button class="listen-button" onclick="startSpeech('episode1-text', 'episode1')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode1')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode1')" style="display: none;">▶️ Resume</button>
+
+        <button class="close-btn" onclick="closeModal('episode1')">X</button>
+
+      </div>
+      <div class="modal-body">
+        <p id="episode1-text">
+          I embarked on this journey with no grand expectations, but today, our BigTurtle SMP has grown into something remarkable. After five seasons, we're still active, building and thriving. It’s hard to believe that we started from a single house and a Nether Portal village. Hey everyone! Welcome to the incredible journey of BigTurtle SMP, a world we’ve been building and surviving in for the past three years. Along the way, we've discovered countless biomes and developed our SMP as much as possible. From farms to infrastructure, we created everything necessary to thrive in our survival world. However, as time passed, some of our friends began to form alliances. These friendships quickly turned into rivalries, sparking conflict. Two main teams emerged from the growing tensions—my team, which I led as DearestWall and another team led by Shine and Yuvraj. Each team had five members, and soon, we found ourselves on opposing sides. The tension escalated, and what started as friendly competition turned into a full-scale war. Our enemies laid waste to our houses, and the SMP became a battlefield. Everyone was driven by a desire for war, and our once-peaceful world became a place of destruction and chaos. Eventually, we managed to rebuild. For a brief time, peace returned to the SMP, but it didn't last long. Within a week, strange occurrences began to unfold—supernatural entities started appearing, and our world felt haunted by an unknown force. We knew we had to act fast, so we employed spies to track the activities of our enemies, and what we discovered shook us. Shine, Yuvraj, and their team were conducting secret experiments. They were growing in power, but we were ready to face them and seek revenge for all that had been lost. However, just as the battle was about to reach its peak, something unexpected happened—an unknown entity appeared. It struck.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 1)">← Go Back</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 1)">Next Episode →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="episode2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 2: The Truth</h2>
+        <button class="listen-button" onclick="startSpeech('episode2-text', 'episode2')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode2')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode2')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode2')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode2-text">
+          We were shocked to hear that someone had entered our beautiful world because of our friends, Shine and Yuvraj. When we tried to reach out, we found they were missing, having gone to a distant corner of the world. Determined to find them, my friends Ranbir, Manav, Minersden, and I set out to uncover clues. Our first stop was their laboratory, where they conducted their experiments. Only a single worker was present, and we immediately questioned him: Is there anyone who knows anything about Shine and Yuvraj? Out of ten workers, only one spoke up, revealing that Shine wanted superpowers, and Yuvraj had assisted him with a dangerous project. They had worked tirelessly, and on the day of the experiment, disaster struck. The worker recounted that when Yuvraj held a vial of a volatile chemical to inject, it spilled into a water source, triggering a catastrophic explosion. From the blast, two unknown creatures emerged. He had witnessed all of this while heading to the basement for work. However, when Manav pressed for more details, the worker admitted he couldn't recall much after that chaotic moment. He noted that the room where Shine and Yuvraj conducted their experiments appeared unaffected, as if nothing had happened at all. As we absorbed this troubling tale, many questions flooded our minds: Who were the two creatures? Could we trust this worker? Where had Shine and Yuvraj gone? Was the experiment truly the catalyst for the supernatural activities surrounding us? We returned home and convened an emergency meeting, crafting a plan to locate Shine and Yuvraj while unraveling the reasons behind the unsettling events.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 2)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 2)">Next Episode →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="episode3">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 3: The Real Twist</h2>
+        <button class="listen-button" onclick="startSpeech('episode3-text', 'episode3')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode3')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode3')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode3')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode3-text">
+          After uncovering the truth, we started finding Shine and Yuvraj and made a tough decision to kick Shine and Yuvraj from our SMP area, knowing they had conducted the experiment without our consent. They left, but not before warning us that they would return one day. Just then, a thunderstorm struck, illuminating the sky and sending chills down our spines. As we ran from the scene, we believed that both were killed in the blast.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 3)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 3)">Next Episode →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal" id="episode4">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 4: The New Journey</h2>
+        <button class="listen-button" onclick="startSpeech('episode4-text', 'episode4')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode4')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode4')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode4')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode4-text">
+          In the aftermath, none of us knew how to confront the looming threat. The same worker who had shared the incident's details revealed that only one man could save us from this impending danger. He provided us with a location, and as we journeyed to find this enigmatic figure, something unexpected appeared before us.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 4)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 4)">Next Episode →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal" id="episode5">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 5: The Truth Unveiled</h2>
+        <button class="listen-button" onclick="startSpeech('episode5-text', 'episode5')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode5')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode5')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode5')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode5-text">
+          That something was Entity 406, a creature we had read about in ancient texts. With its formidable strength, it could inflict severe damage with each strike. However, through teamwork and determination, we fought valiantly, eventually defeating it after a grueling battle. As we pressed onward, the weather grew increasingly ominous. At last, we found the man we had been searching for. He introduced himself as Rambo, but he insisted on a single condition: we needed to cleanse his cursed homeland first. The curse in Rambo's land had shrouded it in perpetual darkness for years, spawning formidable monsters with 200 to 300 HP. This dark magic originated from the cave lord, Dansh. After an intense battle, we managed to defeat Dansh, breaking the curse and restoring daylight. With his land now free, Rambo agreed to join our cause. As we conversed with Rambo, he revealed a shocking truth that he had previously collaborated with Shine and Yuvraj in that laboratory. Rambo warned us that their intentions were not noble; they sought to rule our world. When we pressed him for more details about the invisible entity and Entity 406, we braced ourselves for the answers.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 5)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 5)">Next Episode →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal" id="episode6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 6: The Fight Begins</h2>
+        <button class="listen-button" onclick="startSpeech('episode6-text', 'episode6')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode6')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode6')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode6')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode6-text">
+          Rambo disclosed that the creature spawned during the experiment was none other than Herobrine. He had been orchestrating a plan to take control of our world, intending to wipe out every human within 48 hours using the Sonitary Sword. Realizing the urgency of our situation, we understood that obtaining the sword before Herobrine was crucial to saving our world. However, during our quest, we discovered that one of our team members, Sushant, had been replaced by a doppelgänger. As we fought Entity 406, we executed a secret plan to capture the fake Sushant rather than kill him, hoping to extract information about the real Sushant's whereabouts. Despite our efforts, he revealed nothing except a cryptic statement that "the real Sushant was still alive." With only three of us remaining, the clock was ticking, and we had mere hours left.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 6)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 6)">Next Episode →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="modal" id="episode7">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 7: The Final Step</h2>
+        <button class="listen-button" onclick="startSpeech('episode7-text', 'episode7')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode7')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode7')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode7')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode7-text">
+          We took Rambo with us, embarking on our journey to confront Herobrine. He provided us with a map, explaining that we needed to solve puzzles to unlock the door to the Sonitary Sword's chamber. The challenges tested our skills, but as we overcame each one, we grew more determined. When we reached the final puzzle, only one of us could enter the Sonitary Sword's room. We decided it would be me. As the door swung open, I was met with a shocking sight. Herobrine was there, sitting on the floor, consumed by anger. His once-bright eyes were now dim, and he had lost his powers. I quickly realized we were too late. Someone else had stolen the Sonitary Sword from him, and our time was up. As I rushed towards him, the building began to collapse. I managed to carry Herobrine out, but my friends were terrified at the sight of him. I calmed them, explaining that he was no longer a threat. We captured him in an unbreakable obsidian prison, with Rambo assuring us that he would heal in a week.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 7)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 7)">Next Episode →</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="modal" id="episode8">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 8: The Flashback</h2>
+        <button class="listen-button" onclick="startSpeech('episode8-text', 'episode8')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode8')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode8')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode8')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode8-text">
+          A week later, we relentlessly interrogated both the fake
+          Sushant and Herobrine, seeking answers. Despite our
+          methods, they revealed little, until finally, the fake
+          Sushant disclosed a shocking secret: he had been
+          working for Herobrine, who, in turn, served an even
+          greater power the Evil Lord King. When we pressed
+          Herobrine about the Sonitary Sword, he mentioned
+          that it had once been in his possession. However, upon
+          touching it, he was consumed by its darkness, turning
+          against his intentions. He revealed that the sword had
+          been shattered into three parts: one with Shine,
+          another with the Evil Lord King, and the last still hidden
+          by the Gods of Gods, Hargun Cheema, and Simar. This
+          revelation only intensified our urgency. What did the
+          Evil Lord King truly desire with the sword? What would
+          happen if Shine succeeded in his quest? As the
+          questions multiplied, we devised a plan to confront this
+          evil and restore balance to our world.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 8)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 8)">Next Episode →</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="episode9">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Episode 9: The Gathering Storm</h2>
+        <button class="listen-button" onclick="startSpeech('episode9-text', 'episode9')">🔊 Listen</button>
+        <button class="pause-button" onclick="pauseSpeech('episode9')" style="display: none;">⏸ Pause</button>
+        <button class="resume-button" onclick="resumeSpeech('episode9')" style="display: none;">▶️ Resume</button>
+        <button class="close-btn" onclick="closeModal('episode9')">X</button>
+      </div>
+      <div class="modal-body">
+        <p id="episode9-text">
+          Tension hung thick in the air. As we strategized, Sushant, the real one, appeared
+          unexpectedly. His arrival shocked us; we had thought he was lost forever. He looked worn
+          and weary, but his eyes held a glimmer of hope. He shared his harrowing tale of escape from
+          a dark prison where he had learned the truth about the Evil Lord King and M-Man both were
+          actually Shine and Yuvraj. How had they survived the thunderstorm? In a flashback,
+          Sushant revealed that after we had defeated one of the Evil Lord King's lieutenants, they
+          were captured and replaced by fakes. The evil lord had o ered immense power to Shine and
+          Yuvraj, requiring them to retrieve the Sonitary Sword as proof of their loyalty. Sushant had
+          escaped, but time was against us. The Evil Lord King and M-Man were growing stronger, and
+          we needed to act fast to reclaim the sword before their dark plans unfolded completely.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="prev-episode" onclick="navigateEpisode('previous', 9)">← Previous Episode</button>
+        <button class="next-episode" onclick="navigateEpisode('next', 9)">Coming Soon... →</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+  <p>© All rights reserved by <span>SPEED</span></p>
+</footer>
+
+</html>
